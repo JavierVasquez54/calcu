@@ -18,7 +18,13 @@ case 1:
 
 break;
 case 2:
-
+int n1, n2, total;
+    cout << "Ingrese un numero" << endl;
+    cin>>n1;
+    cout<< "ingrese otro numero"<<endl;
+    cin>>n2;
+    total = n1 - n2;
+    cout<< "La resta es: "<<total<<endl;
 break;
 case 3:
 
