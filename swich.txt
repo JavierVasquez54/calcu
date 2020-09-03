@@ -18,27 +18,21 @@ case 1:
 
 break;
 case 2:
-int n1, n2, total;
-    cout << "Ingrese un numero" << endl;
-    cin>>n1;
-    cout<< "ingrese otro numero"<<endl;
-    cin>>n2;
-    total = n1 - n2;
-    cout<< "La resta es: "<<total<<endl;
+
 break;
 case 3:
 int a, b,r;
 cout<<"Ingrese dos numeros"<<endl;
 cin>>a>>b;
 r=a*b;
-cout<<"El resultado de la multiplicion es:"<<r<<endl;
+cout<<"El resultado de la multiplicacion es:"<<r<<endl;
 break;
 case 4:
 int a, b,r;
 cout<<"Ingrese dos numeros"<<endl;
 cin>>a>>b;
 r=a/b;
-cout<<"El resultado de la division es:"<<r<<endl;
+cout<<"El resultado de la division  es:"<<r<<endl;
 break;
 
 case 5:cout<<"suerte"<<endl;break;
