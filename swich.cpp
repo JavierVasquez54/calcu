@@ -15,7 +15,13 @@ int main()
 switch(m)
 {
 case 1:
-
+int a, b, suma;
+cout << "\ n ingrese numero a:";
+cin >> a;
+cout << "\ n ingrese numero b:";
+cin >> b;
+suma = a + b;
+cout << "\ n la suma de" << a << "+" << b << "es:" << suma;
 break;
 case 2:
 int n1, n2, total;
