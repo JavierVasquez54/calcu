@@ -9,7 +9,7 @@ int main()
     cout<<"2  resta\n";
     cout<<"3  multiplicacion\n";
     cout<<"4  divicion\n";
-    cout<<"6  Salir\n\n";
+    cout<<"5  Salir\n\n";
     cin>>m;
  
 switch(m)
@@ -27,7 +27,7 @@ case 4:
 
 break;
 
-case 6:cout<<"suerte"<<endl;break;
+case 5:cout<<"suerte"<<endl;break;
 default: cout<<"El valor ingresado no esta en el menu"<<endl;
 }
     return 0;
